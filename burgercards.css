@@ -1,0 +1,68 @@
+.burger-page {
+    background-color: rgb(0, 0, 0);
+}
+#title {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+.burger-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.burgers {
+    background-color: black;
+    width: 300px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 15px;
+    transition: 0.3s ease;
+    border-radius: 30px;
+}
+.burgers img {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+}
+.name-burger {
+    color: rgba(187, 226, 11, 0.938);
+}
+.price {
+    color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.btn2 {
+    color: aquamarine;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button-bur {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.home-burger {
+    display: block;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    border: 2px solid rgb(22, 226, 192);
+    margin: 20px;
+}
+.home-burger a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.home-burger:hover {
+    transform: scale(1.25);
+    transition: transform 2s ease-in-out;
+}

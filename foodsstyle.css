@@ -1,0 +1,98 @@
+body.drinks {
+  background-color: black;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+/* starting */
+#drink-title {
+  color: violet;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+.drink-card {
+  width: 300px;
+  background-color: #222;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 20px 15px rgba(0, 255, 255, 0.1);
+  text-align: center;
+}
+
+
+.drink-card:hover {
+  transform: scale(1.07);
+  box-shadow: 200px 200px 20px rgba(0, 255, 255, 0.1);
+}
+
+
+.drink-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.drink-name {
+  color: yellow;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+
+.price {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.home-link {
+    display: block;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    border: 2px solid rgb(22, 226, 192);
+}
+.home-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.home {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.home-link:hover {
+    transform: scale(1.25);
+    transition: transform 0.25s ease-in-out;
+}
+#left {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+}
+.button {
+  background-color: rgb(112, 230, 16);
+  color: rgb(14, 29, 233);
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+

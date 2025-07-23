@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+}
+.menu-hotel {
+    background-color: black;
+}
+.menu-hotel img {
+    box-shadow: 0px 0px 100px rgb(236, 236, 236);
+    position: absolute;
+    left: 100px;
+}
+#name-plate {
+    text-align: center;
+    color: rgb(248, 244, 15);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: wavy underline whitesmoke;
+}
+#navigation ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+}
+#navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#navigation a:hover {
+    color: orange;
+    text-decoration: wavy underline blue;
+}
+/* Home section */
+#trending {
+    color: rgb(248, 7, 7);
+    text-align: center;
+    font-family: cursive;
+}
+.home {
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: Arial, sans-serif;
+}
+
+#foods {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.home h2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.home p {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: end;
+}
+.images-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home:hover {
+    transform: scale(1.07);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 10px 10px 10px rgba(1, 235, 60, 0.8);
+}
+.button-home {
+  background-color: rgb(112, 230, 16);
+  color: rgb(14, 29, 233);
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* Footer */
+.footer-index {
+    background-color: rgb(10, 238, 143) ;
+    height: 200px;
+}
+#contact {
+    text-align: center;
+    color: rgb(69, 12, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#gmail {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+#nice {
+    text-align: center;
+    color: rgb(239, 243, 10);
+    font-family:'Courier New', Courier, monospace;
+}
+.have {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+#order {
+    display: flex;
+    color: white;
+    font-family: unset;
+    font-size: 50px;
+    justify-content: center;
+}
