@@ -1,6 +1,6 @@
-# 🍽️ Yash's Restaurant Menu
+# 🍽️ Yash's Restaurant 
 
-Welcome to **Yash's Restaurant Menu** – a simple and visually appealing web-based restaurant menu. This project is built using HTML, CSS, and basic JavaScript to showcase a restaurant’s food items, their pricing, availability, and contact details.
+Welcome to **Yash's Restaurant** – a simple and visually appealing web-based restaurant menu. This project is built using HTML, CSS, and basic JavaScript to showcase a restaurant’s food items, their pricing, availability, and contact details.
 
 ---
 
