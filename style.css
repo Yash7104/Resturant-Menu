@@ -12,8 +12,14 @@ body {
 #name-plate {
     text-align: center;
     color: rgb(248, 244, 15);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: wavy underline whitesmoke;
+}
+  #name-plate {
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
 }
 #navigation ul {
     display: flex;
@@ -75,7 +81,7 @@ body {
 .home:hover {
     transform: scale(1.07);
     transition: transform 0.3s ease-in-out;
-    box-shadow: 10px 10px 10px rgba(1, 235, 60, 0.8);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 .button-home {
   background-color: rgb(112, 230, 16);
@@ -87,7 +93,7 @@ body {
 
 /* Footer */
 .footer-index {
-    background-color: rgb(10, 238, 143) ;
+    background-color: rgb(127, 255, 6) ;
     height: 200px;
 }
 #contact {
