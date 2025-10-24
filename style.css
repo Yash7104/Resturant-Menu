@@ -37,7 +37,7 @@ body {
 }
 #navigation a:hover {
     color: orange;
-    text-decoration: wavy underline blue;
+    text-decoration: blue;
 }
 /* Home section */
 #trending {
@@ -54,7 +54,9 @@ body {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     font-family: Arial, sans-serif;
 }
-
+.food-name {
+    font-family: 'Courier New', Courier, monospace;
+}
 #foods {
     width: 100%;
     height: auto;
@@ -93,18 +95,22 @@ body {
 
 /* Footer */
 .footer-index {
-    background-color: rgb(127, 255, 6) ;
-    height: 200px;
+    background-color: rgb(0, 0, 0) ;
+    height: 125px;
 }
 #contact {
-    text-align: center;
-    color: rgb(69, 12, 223);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 620px;
+    color: rgb(179, 157, 157);
+    font-family: "Bitcount Prop Single", system-ui;
+    font-size: 20px;
 }
 #gmail {
-    text-align: center;
-    color: blueviolet;
-    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 600px;
+    color: rgb(228, 195, 195);
+    font-family: cursive;
+    font-size: 20px;
 }
 #nice {
     text-align: center;

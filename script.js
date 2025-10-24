@@ -1,1 +1,1 @@
-alert("Warning! This is just a template of resturant site and is not real!!")
+// alert("Warning! This is just a template of resturant site and is not real!!")
